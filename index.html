@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+</head>
+<body>
+    <div class="containers">
+
+        <div class="headerMain">
+            <div class="Part1">Book Store App</div>
+            <div class="part2">
+                <a href="history.html">History</a>
+                <a href="searched.html">Searched</a>
+            </div>
+        </div>
+
+        <div class="bodyMain">
+            Search For Books By Their Name
+            <form>
+            <div class="searchDiv">
+                <span><i class="fas fa-search"></i></span>
+                <input type="text" id="searchInput" placeholder="Search" required>
+            </div>
+
+            <div class="searchBtn">
+                <input type="submit" value="Search Now!" id="searchSubmit">
+            </div>
+        </form>
+
+            <div class="display">
+                <p>Book Result For <b><span id="result"></span></b></p>
+                <div class="DisplayCard">
+
+                    <!-- <div class="card">
+                        <img class="cardImage" src="http://books.google.com/books/content?id=X58EqptgJV8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt="">
+                        <div class="cardBody">
+                            <h4 class="cardTitle">Title: The Last Olympian</h4>
+                            <p class="cardAutor">Author: Rick Riordan</p>
+                            <p class="cardPageCount">Page Count: 1024</p>
+                            <p class="cardPublisher">Publisher: National Geographic Books</p>
+                        </div>
+                        <div class="cardBtn">
+                            <button class="cardBuyNow">Buy Now</button>
+                        </div>
+                    </div> -->
+                    
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <script src="script.js"></script>    -->
+    <script src="landing.js"></script>
+</body>
+</html>
